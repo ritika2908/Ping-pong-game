@@ -1,0 +1,64 @@
+
+body {
+
+    /* width inherit , matlab jo parent ki width , means jo bhi uske parent tag ki width  */ 
+    /* taaki body ki width jo total width h wo aa jaye  here jo scree ki hogi wo hi  */
+    width: inherit; 
+    background-color: black;
+    position: relative;
+    margin: 0;
+}
+
+#ball {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+    padding: 0 ;
+    
+}
+#upper-score{
+    width: 25px;
+    height: 25px;
+    /* border: 1px solid white; */
+    position: absolute;
+    left: 40%;
+    bottom: 100%;
+    display:none;
+    color: #ff004f ;
+    text-align: center;
+}
+
+#lower-score{
+    width: 25px;
+    height: 25px;
+    /* border: 1px solid white; */
+    position: absolute;
+    left: 40%;
+    display:none;
+    top: 100%;
+    color: #ff004f ;
+    text-align: center;
+}
+
+
+.bar {
+    height: 10px;
+    width: 150px;
+    position: fixed;
+    background-color: white;
+    margin: 0;
+    border-radius: 20px 20px; /*top right*/
+}
+
+#upper {
+    top: 30px; /* top se itna margin */
+    left: 550px; /* to keep intial position in between*/
+}
+
+#lower {
+    top: 95%;
+    left: 550px;
+
+}
+
